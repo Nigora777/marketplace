@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-Black.woff) format(woff), url(./fonts/monteserrat/Montserrat-Black.woff2) format(woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-ExtraBold.woff) format(woff), url(./fonts/monteserrat/Montserrat-ExtraBold.woff2) format(woff2);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-Bold.woff) format(woff), url(./fonts/monteserrat/Montserrat-Bold.woff2) format(woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-SemiBold.woff) format(woff), url(./fonts/monteserrat/Montserrat-SemiBold.woff2) format(woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-Medium.woff) format(woff), url(./fonts/monteserrat/Montserrat-Medium.woff2) format(woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-Regular.woff) format(woff), url(./fonts/monteserrat/Montserrat-Regular.woff2) format(woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-Light.woff) format(woff), url(./fonts/monteserrat/Montserrat-Light.woff2) format(woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-ExtraLight.woff) format(woff), url(./fonts/monteserrat/Montserrat-ExtraLight.woff2) format(woff2);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "monteserrat";
+  src: url(./fonts/monteserrat/Montserrat-Thin.woff) format(woff), url(./fonts/monteserrat/Montserrat-Thin.woff2) format(woff2);
+  font-weight: 100;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1290px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 17px 45px 17px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: #333C4F;
+  color: white;
+  position: relative;
+  box-shadow: 0px 4px 16px 0px rgba(51, 60, 79, 0.3607843137);
+}
+
+.btn-icon {
+  margin-right: 5px;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url(./blocks/images/btn-icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: calc(50% - 12px);
+  left: 20px;
+}
+
+.header {
+  padding: 20px 0;
+  background: #2B2B2B;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__title {
+  color: #FFFFFF;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header__btn {
+  padding: 13px 25px 13px 52px;
+  border: none;
+  color: #FFFFFF;
+  background: #A259FF;
+  border-radius: 120px;
+  position: relative;
+}
+
+.header__btn::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(./images/User.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 18px;
+}/*# sourceMappingURL=style.css.map */

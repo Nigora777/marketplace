@@ -1,0 +1,12 @@
+@mixin d-flex($j: space-between,$gap:20px){
+    display: flex;
+    align-items: center;
+    justify-content: $j;
+    gap: $gap;
+}
+
+@mixin btn($padding:15px 30px,$radius:25px){
+padding: $padding;
+border: none;
+border-radius: $radius;
+}

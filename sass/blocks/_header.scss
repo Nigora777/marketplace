@@ -1,0 +1,56 @@
+.header{
+    padding: 20px 0;
+    background: #2B2B2B;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__title{
+    color: #FFFFFF;
+}
+
+.header__link{
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
+text-align: center;
+    color: #FFFFFF;
+}
+
+.header__btn{
+    padding: 13px 25px 13px 52px;
+    border: none;
+    color: #FFFFFF;
+    background: #A259FF;
+    border-radius: 120px;
+    position: relative;
+}
+
+.header__btn::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/User.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 18px;
+}
